@@ -1,0 +1,55 @@
+body{
+    background-color: #051f3f;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 95.5vh;
+}
+h1{
+    text-align: center;
+    border: solid 3px white;
+    width: 500px;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+td{
+    position: relative;
+    top: 100px;
+    left: 80px;
+    background-color: white;
+}
+
+#fullImage{
+    position: absolute;
+    top: 200px;
+    left: 900px;
+    
+}
+
+#return{
+    text-decoration: none;
+    text-align: center;
+    border: solid white 10px;
+    background-color: rgb(255, 255, 255);
+    width: 10rem;
+    color: black;
+    position: absolute;
+    top: 35px;
+    left:  85px;
+    font-weight: 900;
+}
+#moveCount{
+    text-align: center;
+    position: relative;
+    left: 900px;
+    background-color: white;
+    height: 100px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rebeccapurple;
+    font-weight: bolder;
+}

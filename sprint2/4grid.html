@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="4grid.css">
+</head>
+<body onkeydown="keyPressed(event)">
+    <div class="header">
+        <h1>SLIDING PUZZLE</h1>
+    </div>
+    
+    <a id="return" href="http://127.0.0.1:5500/index.html">HOME</a>
+    <table>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+    <div id="moveCount">COUNT :<span id="moves" ></span></div>
+    <img id="fullImage" src="0.jpeg" alt="fill image" width="500px">
+   
+    <script src="4grid.js"></script>
+</body>
+</html>

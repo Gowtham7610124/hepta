@@ -1,0 +1,53 @@
+body{
+    background-image: url('/sprint2/—Pngtree—puzzle\ and\ money\ corporate\ poster_1112931.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+        
+}
+/*container are styled*/
+.container1 , .container2 {
+    background-color: purple;
+    border-radius: 8%;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+.container1 p , .container2 p{
+    background-color: brown;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+}
+h1{
+    text-align: center;
+}
+
+/*grid are styled*/
+.grid1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 30px;
+}
+
+
+/*button are styled*/
+.button2{
+    position: relative;
+    margin-top: 70px;
+   
+}
+#button3{
+    height: 50px;
+    width: 200px;
+    border-radius: 5%;
+    background-color: brown;
+    color: white;
+    border-style: none;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+}
